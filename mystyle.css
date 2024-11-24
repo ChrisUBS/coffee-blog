@@ -1,4 +1,9 @@
 /* Global */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial;
 }
@@ -10,6 +15,7 @@ img {
 p {
     line-height: 2;
 }
+
 /* Utilities */
 .container {
     width: 80%;
@@ -17,11 +23,8 @@ p {
     margin-right: auto;
 }
 
-.btn-more {
+.btn {
     display: inline-block;
-    /* background-color: black; */
-    /* background-color: sienna; */
-    background-color: black;
     color: white;
     padding: 10px;
     margin-top: 10px;
@@ -32,22 +35,21 @@ p {
     font-size: 12px;
 }
 
-.btn-more-information {
-    display: inline-block;
-    /* background-color: black; */
+.btn-more {
+    background-color: black;
+}
+
+.btn-info {
     background-color: sienna;
-    color: white;
-    padding: 10px;
-    /* margin-top: 10px;
-    margin-bottom: 20px; */
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;    
-    font-size: 12px;
+}
+
+.bottom-line {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
 }
 
 /* Header */
-header {
+.site-header {
     background-image: url(/images/banner.jpg);
     background-position: center center;
     background-size: cover;
@@ -56,8 +58,39 @@ header {
     text-align: center;
 }
 
-/* Main */
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Horizontal */
+    align-items: center; /* Vertical */
+}
 
+.btn-home {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main */
+.main-flex {
+    display: flex;
+}
+
+.blog-container {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.courses-container {
+    width: 40%;
+}
+
+/* Blog */
 
 /* Footer */
 footer {
@@ -67,26 +100,3 @@ footer {
     padding: 10px;
 }
 
-.tittle-footer p {
-    font-size: 25px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.links-footer {
-    display: flex;
-    justify-content: center;
-}
-
-.links-footer a {
-    margin-right: 10px;
-    margin-top: 0px;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-
-/* Blog */
