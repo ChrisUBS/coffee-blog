@@ -4,37 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="mystyle.css">
+    <title>Coffee Blog</title>
+    <link rel="stylesheet" href="css/about-style.css">
 </head>
 
 <body>
     <header class="site-header">
-        <a class="btn-home" href="index.html"><h1>Coffe Blog</h1></a>
-        <nav class="menu">
-            <a href="about.html">About</a>
-            <a href="courses.html">Courses</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <h2>Coffee Blog with tips and courses.</h2>
-        <p>Learn from the experts with the best recipes and tips.</p>
-    </header>
+        <div class="menu-bar">
+            <a class="btn-home" href="index.html"><h1>Coffe Blog</h1></a>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="text-header">
+            <h2>Coffee Blog with tips and courses</h2>
+            <p>Learn from the experts with the best recipes and tips.</p>
+        </div>
+    </header> <!-- .site-header -->
 
-    <main class="container">
-        <h2>About</h2>
-
+    <main class="container main-flex">
+        <section class="about-container">
+                <h2>About Us</h2>
+                <div class="about-info">
+                    <img src="images/us.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore vel qui aut voluptas expedita delectus dolore facilis molestias quibusdam!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti iste magnam in cupiditate ut voluptates mollitia, commodi sapiente fugiat. Culpa aliquid corrupti reiciendis exercitationem, accusamus officiis, dolores reprehenderit voluptates.</p>
+                </div>
+        </section>
     </main>
 
-    <footer>
-        <div class="tittle-footer">
-            <p><strong>Coffee Blog</strong></p>
+    <footer class="site-footer">
+        <div class="menu-bar">
+            <h1>Coffee Blog</h1>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-        <div class="links-footer">
-            <a href="#">About us</a>
-            <a href="#">Courses</a>
-            <a href="#">Contact</a>
-        </div>
-    </footer>
+    </footer> <!-- .site-footer -->
+
 </body>
 
 </html>
