@@ -33,6 +33,7 @@ p {
     text-decoration: none;
     letter-spacing: 2px;    
     font-size: 12px;
+    border: none;
 }
 
 .btn-more {
@@ -95,11 +96,20 @@ p {
     margin-right: 20px;
 }
 
+/* Courses */
 .courses-container {
-    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
 }
 
-/* Blog */
+.bottom-line {
+    flex: 1 1 calc(33.33% - 20px); 
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: #f9f9f9;
+}
 
 /* Footer */
 footer {
@@ -108,4 +118,3 @@ footer {
     text-align: center;
     padding: 10px;
 }
-

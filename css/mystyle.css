@@ -1,0 +1,139 @@
+/* Global */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 2;
+}
+
+/* Utilities */
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;    
+    font-size: 12px;
+    border: none;
+}
+
+.btn-more {
+    background-color: black;
+}
+
+.btn-info {
+    background-color: sienna;
+}
+
+.bottom-line {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+/* Header */
+.site-header {
+    background-image: url(/images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 350px;
+    text-align: center;
+}
+
+.text-header {
+    margin-top: 50px;
+}
+
+.site-header h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Horizontal */
+    align-items: center; /* Vertical */
+}
+
+.btn-home {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main */
+.main-flex {
+    display: flex;
+}
+
+.blog-container {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.courses-container {
+    width: 40%;
+}
+
+/* Blog */
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Contact */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.input-control {
+    margin-bottom: 20px;
+}
+
+.input-control label {
+    display: inline-block;
+    width: 120px;
+}
+
+.input-control input,
+.input-control textarea {
+    width: 60%;
+    padding: 5px;
+    border: 1px solid gray;
+}
